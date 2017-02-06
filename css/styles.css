@@ -19,7 +19,6 @@ body {
 }
 
 #header {
-    width:100%;
     background-color: none;
     min-height: 80px;
 }
@@ -28,24 +27,20 @@ body {
     
     margin:0;
     text-align: center;
-    position: relative;
-    transform: translateY(50)
+    font-family: 'Lato', sans-serif;
+    position: relative;transform: translateY(50)
 }
 
 #nav {
-    width:100%;
     background-color: 08A66B;
     min-height: 80px;
     font-family: 'Lato', sans-serif;
     height: auto;
 }
 #nav > ul {
-    
     text-align: center;
-    padding: 0;
+    padding: 15px 0 15px 0;
     margin: 0;
-    transform: translateY(50%);
-    
 }
 
 #nav > ul > button {
@@ -58,7 +53,7 @@ body {
 }
 
 #nav > ul >button > a {
-    color: whitesmoke;
+    color: ghostwhite;
 }
 
 #nav > ul > button:hover {
@@ -72,7 +67,6 @@ body {
     list-style-type: none;
     margin:0;
 }
-*/
 #middle-wrapper-width {
     display: flex;
     font-family: 'Lato', sans-serif;
@@ -82,12 +76,11 @@ body {
 #middle-wrapper {
     
 }
-
+*/
 
 .side-by-side {
     display: flex;
 }
-
 
 #main-content-wrapper .image-content {
     text-align: center;
