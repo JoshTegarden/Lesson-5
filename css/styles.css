@@ -50,6 +50,7 @@ body {
     border: none;
     padding: 15px 32px;
     transition: background-color .25s;
+    border-bottom: 2px #08a66b solid;
 }
 
 #nav > ul >button > a {
@@ -79,17 +80,17 @@ body {
 */
 
 .side-by-side {
-    display: flex;
+    
 }
 
 #main-content-wrapper .image-content {
     text-align: center;
-    width:50%;
+    margin:0 auto;
     margin-top: 50px;
 }
 
 .image-content > img {
-    max-width: 250px;
+    max-width: 200px;
     border-radius: 50%;
 }
 
@@ -108,8 +109,7 @@ body {
 }
 
 #main-content-wrapper article {
-    width:50%;
-    margin-top: 100px;
+
 }
 
 #main-content-wrapper article h2 {
@@ -135,8 +135,9 @@ body {
 
 #aside-content-wrapper {
     background-color: white;
-    width:35%;
-    font-family: 'Lato', sans-serif
+    margin-top: 50px;
+    font-family: 'Lato', sans-serif;
+    background-color: #fff
 }
 
 #aside-right {
@@ -175,6 +176,7 @@ body {
     background-image:url(img/bg.jpg);
     border-top: 5px #008F82 solid;
     border-bottom: 5px #008F82 solid;
+    text-align: center;
    }
 
 #favorite-websites ul {
@@ -195,4 +197,9 @@ footer {
 footer > h1 {
     text-align:center;
     margin:0;
+}
+
+.max-width {
+    margin: 0 auto;
+    max-width: 960px;
 }
